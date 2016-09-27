@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contacts</title>
+  <title>Contact</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,76 +9,53 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
   <link rel="stylesheet" type="text/css" href="css/global.css" />
-  <link rel="icon" type="img/x-icon" href="img/noun_6249_cc.png" />
+  <link rel="styleshete" type="text/css" href="css/about.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="icon" type="img/x-icon" href="img/corgi.png" />
 
 </head>
 <body>
-<header>
-  Peanutbutter&amp.jelly.sandwich
-</header>
-<main id="section1">
-<section>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<br/>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</br/>
-</section>
-<section id="section2">
-
-  <button>Click me</button>
-</section>
-</main>
-  <!-- <button class="ugly">Button 1</button> Buttons and CSS transitions/transforms for animationed effects
-  <button class="beautiful">Button 2</button>
-  <button><span>Button 3</span></button> -->
-  <!-- <header>
-    <h1>words</h1>
+  <!--  Main image at top.  Overlay text about image and heading title-->
+  <header class="container-fluid">
+    <img id="mainimage" class="col-sm-12 grayscale" src="./img/flat.jpg" alt="watching for intruders" />
+    <div class="bottomright">
+      <h1>the Sploot.</h1>
+      <a href="mailto:joel.lonneker@gmail.com"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></a> <br />
+      <a href="https://www.facebook.com/joel.lonneker"><i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i></a> <br />
+      <a href="https://plus.google.com/u/0/+JoelLonneker"><i class="fa fa-google-plus-square fa-5x" aria-hidden="true"></i></a><br />
+    </div>
   </header>
-  <main>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    </p>
-    <section>
-      <table>
-        <thead>
-
-
-          <tr>
-            <th>
-              price
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              50
-            </td>
-          </tr>
-          <tr>
-            <td>
-              50
-            </td>
-          </tr>
-          <tr>
-            <td>
-              50
-            </td>
-          </tr>
-          <tr>
-            <td>
-              50
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </main> -->
-  <!-- <footer>
-    &copy; 2020 All Rights Reserved
-  </footer> -->
+  <div class="inbetweencontainer">
+    <div class="col-sm-12">
+      <div class="col-sm-4" id="homediv">
+        <div class="inbetween">
+          <h2>Home</h2>
+          <p>
+            The watcher of the index.  This link goes home. <br />
+            <a href="index.html"><img src="img/corgi.png" /></a>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4" id="aboutmediv">
+        <div class="inbetween">
+          <h2>About Me</h2>
+          <p>
+            Firstly, corgi's have rediculously fluffy butts.  Second, this link is about me. <br />
+            <a href="about.html"><img src="img/rabbit.png" /></a>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-4" id="contactdiv">
+        <div class="inbetween">
+          <h2>Contact</h2>
+          <p>
+            If you need to contact me, this will get you there. <br />
+            <a href="contact.html"><img src="img/letter.png" /></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
