@@ -1,0 +1,101 @@
+body {
+    font-size: 20px;
+    /*background: linear-gradient(rgb(189, 189, 189), rgb(175, 175, 175));*/
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    text-align: center;
+}
+.ugly, .beautiful, button {
+    width:250px;
+}
+
+header {
+
+    background:brown;
+    color: purple;
+    height: 200;
+    font-size: 25px;
+
+}
+#section1 {
+    background: url(../img/pose.jpg);
+    padding: 5px 50px 50px 50px;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    background-attachment:fixed;
+    min-height:800px;
+
+}
+#section2 > button{
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: lime;
+    border: 2px solid brown;
+    box-shadow: 10px 10px 30px purple;
+    transition: all .3s ease;
+
+}
+#section2 > button:focus {
+    transform: translateX(-10px) translateY(-10px) scale(2.5);
+}
+button > span {
+    font-size: 50px;
+}
+.ugly{
+    /*width: 250px;*/ added to .ugly, .beautiful, button above
+    background-color: lime;
+    /*border-top: 20px; Example of long hand
+    border-style: solid;
+    border-color: red;*/
+    border:20px solid red;
+}
+.beautiful {
+    /*width: 250px;*/ added to .ugly, .beautiful, button above
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: all 10s ease;
+}
+.beautiful:hover {
+    transform: scale(2) rotate(45deg);
+}
+img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    /*border-radius: 25px;*/
+}
+.container {
+    position: relative;
+}
+.bottomright {
+    position:absolute;
+    top:20px;
+    right: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);filter: hue-rotate(180deg);
+}
+.grayscale {
+    -webkit-filter: grayscale(100%);filter: grayscale(100%);
+}
+
+.inbetween {
+    /*width:300px;
+    height:200px;*/
+    padding: 5px;
+    border:2px solid black;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
