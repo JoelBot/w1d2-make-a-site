@@ -1,12 +1,13 @@
-.about > header{
+/*.about > header{
     font-size: 200px;
     text-align: center;
-    /*background: rgba(20, 255, 0, 0.1);*/
-    color: white;
-}
+    background: rgba(20, 255, 0, 0.1);
+}*/
+
 .about {
     background: url(../img/ForrestTall.jpeg) fixed center no-repeat;
     background-size:cover;
+    /*filter: grayscale(100%);*/
 }
 table, tr, td{
     border: 1px solid white;
@@ -21,7 +22,6 @@ table, tr, td{
     float:left;
     font-size: 20px;
     color: white;
-    /*background-color: rgba(0, 0, 0, 0.1);*/
     border-right: 1px solid white;
     max-height: 100%;
 }
@@ -29,8 +29,6 @@ table, tr, td{
     float:right;
     font-size: 20px;
     color: white;
-    /*background-color: rgba(20, 255, 0, .1);*/
-    /*border: 1px solid white;*/
     text-align: center;
 }
 #sidebar > img {
