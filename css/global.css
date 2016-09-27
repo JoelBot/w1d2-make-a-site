@@ -1,19 +1,29 @@
 body {
     font-size: 20px;
-    /*background: linear-gradient(rgb(189, 189, 189), rgb(175, 175, 175));*/
     margin: 0;
+    background-color: grey;
     font-family: 'Roboto', sans-serif;
     max-width: 100%;
     text-align: center;
+    color: white;
+
 }
 .ugly, .beautiful, button {
     width:250px;
 }
-
+#mainimage:hover {
+    transition: all 60s ease;
+    transform: scale(1.1);
+}
+#homediv:hover, #aboutmediv:hover, #contactdiv:hover {
+    transform: translateX(-10px) translateY(-10px) scale(1.25);
+    transition: all 60s ease;
+    transform: scale(5) rotate(2000deg);
+}
 header {
 
-    background:brown;
-    color: purple;
+
+
     height: 200;
     font-size: 25px;
 
