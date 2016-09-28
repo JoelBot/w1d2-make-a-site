@@ -6,6 +6,8 @@ body {
     max-width: 100%;
     text-align: center;
     color: white;
+    background: url(../img/grey.png) fixed no-repeat center;
+    background-size:cover;
 }
 .ugly, .beautiful, button {
     width:250px;
@@ -15,8 +17,9 @@ body {
     transform: scale(1.1);
 }
 #homediv:hover, #aboutmediv:hover, #contactdiv:hover, i:hover{
-    transform: translateX(-10px) translateY(-10px) scale(1.05);
-    transition: all .3s ease;
+    transform: translateX(-50px) translateY(-50px) scale(1.05);
+    transition: all .4s ease;
+    box-shadow: 20px 20px 30px lime;
     /*transform: scale(5) rotate(2000deg);*/
 }
 #section1 {
