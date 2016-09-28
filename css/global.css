@@ -16,9 +16,9 @@ body {
     transform: scale(1.1);
 }
 #homediv:hover, #aboutmediv:hover, #contactdiv:hover {
-    transform: translateX(-10px) translateY(-10px) scale(1.25);
-    transition: all 60s ease;
-    transform: scale(5) rotate(2000deg);
+    transform: translateX(-10px) translateY(-10px) scale(1.05);
+    transition: all .3s ease;
+    /*transform: scale(5) rotate(2000deg);*/
 }
 #section1 {
     background: url(../img/pose.jpg);
