@@ -6,32 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Stylesheets go here. -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
   <link rel="stylesheet" type="text/css" href="css/about.css" />
-  <link rel="stylesheet" type="text/css" href="css/headermenu.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="icon" type="img/x-icon" href="img/noun_6249_cc.png" />
 </head>
-<body class="about">
-  <header>
-    <div class="menu">
-      <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-    </div>
-    <div class="menu">
-      <a href="about.html"><i class="fa fa-user" aria-hidden="true"></i> About</a>
-    </div>
-    <div class="menu">
-      <a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
-    </div>
-    <div class="heading">
-      About Me
-    </div>
-  </header>
-  <main class="container-fluid">
-    <section class="col-sm-12">
-      <div class="col-sm-10 col-height" id="mainsection">
+<!-- <body class="about"> -->
+<body>
+  <!--  Main image at top.  Overlay text about image and heading title-->
+  <header class="container-fluid">
+    <div class="col-sm-12">
+      <img id="mainimage" class="col-sm-12 grayscale" src="./img/pose.jpg" alt="watching for intruders" />
+      <div class="col-sm-10" id="mainsection">
         <div class="chatcontent">
           <h1>Description</h1>
           <p>
@@ -89,63 +79,220 @@
           </p>
         </div>
       </div>
-      <div class="col-sm-2 col-height" id="sidebar">
-        <img src="img/puppfacesquare.jpg" alt="A picture that represents me" />
-        <table>
-          <thead>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                Name:
-              </td>
-              <td>
-                Joel Lonneker
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Title:
-              </td>
-              <td>
-                Happy Funtime
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Pets:
-              </td>
-              <td>
-                Watson
-                <br />
-                Kensington
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Media:
-              </td>
-              <td style="text-align: center">
-                <a href="https://www.facebook.com/joel.lonneker"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="https://plus.google.com/u/0/+JoelLonneker"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="bottomright">
+        <h1>the Foot.</h1>
+        <div class="col-sm-2" id="sidebar">
+          <img src="img/myfoot.jpg" alt="A picture that represents me" />
+          <table id="aboutmetable">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Name:
+                </td>
+                <td>
+                  Joel Lonneker
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Title:
+                </td>
+                <td>
+                  Happy Funtime
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Pets:
+                </td>
+                <td>
+                  Watson
+                  <br />
+                  Kensington
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Media:
+                </td>
+                <td style="text-align: center">
+                  <a href="https://www.facebook.com/joel.lonneker"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                  <a href="https://plus.google.com/u/0/+JoelLonneker"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- <a href="mailto:joel.lonneker@gmail.com"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></a> <br />
+          <a href="https://www.facebook.com/joel.lonneker"><i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i></a> <br />
+          <a href="https://plus.google.com/u/0/+JoelLonneker"><i class="fa fa-google-plus-square fa-5x" aria-hidden="true"></i></a><br /> -->
+        </div>
       </div>
-    </section>
+    </header>
+    <div class="inbetweencontainer">
+      <div class="col-sm-12">
+        <div class="col-sm-4" id="homediv">
+          <div class="inbetween">
+            <h2>Home</h2>
+            <p>
+              The watcher of the index.  This link goes home. <br />
+              <a href="index.html"><img src="img/corgi.png" /></a>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4" id="aboutmediv">
+          <div class="inbetween">
+            <h2>About Me</h2>
+            <p>
+              Firstly, corgi's have rediculously fluffy butts.  Second, this link is about me. <br />
+              <a href="about.html"><img src="img/rabbit.png" /></a>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4" id="contactdiv">
+          <div class="inbetween">
+            <h2>Contact</h2>
+            <p>
+              If you need to contact me, this will get you there. <br />
+              <a href="contact.html"><img src="img/letter.png" /></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <header>
+  <div class="menu">
+  <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+</div>
+<div class="menu">
+<a href="about.html"><i class="fa fa-user" aria-hidden="true"></i> About</a>
+</div>
+<div class="menu">
+<a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+</div>
+<div class="heading">
+About Me
+</div>
+</header>
+<main class="container-fluid">
+<section class="col-sm-12">
+<div class="col-sm-10 col-height" id="mainsection">
+<div class="chatcontent">
+<h1>Description</h1>
+<p>
+Growing up in the state of Washington and graduating up and through college, I've gained a rather good feeling for the various regions of the state.  From camping in the Olympic Moutains, to the dry banks of the Snake River; the variety of ecosystems available are astounding.  For a long time I've been looking for other locations to move, so to try and experience those areas... but over the last few years the areas surrounding Seattle have gotten warmer and nicer, the rain has slowed year over year, and the winters have gotten more and more mild.  This isn't really a description about me as much as a description of where I live.  So, I'm about 6 feet tall and like pizza a little bit too much.
+</p>
+</div>
+<div class="chatcontent">
+<h1>Hobbies</h1>
+<table>
+<thead>
+<tr>
+<th>
+Activity
+</th>
+<th>
+Why
+</th>
+<th>
+Information
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Gaming
+</td>
+<td>
+It gets me out of my head so I can just enjoy some time with friends who don't live close.
+</td>
+<td>
+<a href="http://reddit.com/r/gaming">Reddit/r/gaming is a good place to check this stuff out</a>
+</td>
+</tr>
+<tr>
+<td>
+Netflix/Hulu Binging
+</td>
+<td>
+This isn't a good habit, but more a guilty pleasure.  Mr. Robot, Naruto, other various anime.
+</td>
+<td>
+<a href="http://netflix.com">Netflix</a>
+<a href="http://hulu.com">Hulu</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chatcontent">
+<h1>Something Random</h1>
+<p>
+Pizza toppings of choice: Pepperoni and Pineapple.
+Don't hate
+</p>
+</div>
+</div>
+<div class="col-sm-2 col-height" id="sidebar">
+<img src="img/puppfacesquare.jpg" alt="A picture that represents me" />
+<table>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td>
+Name:
+</td>
+<td>
+Joel Lonneker
+</td>
+</tr>
+<tr>
+<td>
+Title:
+</td>
+<td>
+Happy Funtime
+</td>
+</tr>
+<tr>
+<td>
+Pets:
+</td>
+<td>
+Watson
+<br />
+Kensington
+</td>
+</tr>
+<tr>
+<td>
+Media:
+</td>
+<td style="text-align: center">
+<a href="https://www.facebook.com/joel.lonneker"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+<a href="https://plus.google.com/u/0/+JoelLonneker"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
 
-  </div>
+</div>
 </main>
 <footerclass="col-sm-12">
 <section class="col-sm-3">
 
 </section>
 </footer>
-<!-- Content goes here. -->
+Content goes here.
 
 <!-- Scripts go here. -->
-<script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+<!-- <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
 <script type="text/javascript" src="global.js"></script>
-</body>
+</body> --> -->
 </html>
